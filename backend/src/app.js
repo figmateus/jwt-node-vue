@@ -14,6 +14,7 @@ mongoose.connect(database.local.localDatabaseUrl, {
     useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }).then(console.log('Banco de dados conectador com sucesso!'),(err)=>{
     console.log(`erro ao conectar com o banco de dados...:${err}`);
     process.exit();
+    
 });
 
     
